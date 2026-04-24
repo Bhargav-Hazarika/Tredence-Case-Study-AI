@@ -20,7 +20,7 @@ Reducing this term pushes many gate values toward zero. When the gate approaches
 
 ### Observation
 
-As the value of λ increases, the sparsity level increases significantly. This indicates that the L1 regularization is effectively pruning the network. However, this comes with a trade-off: the test accuracy remains relatively low and does not improve significantly. This suggests that excessive pruning can limit the model’s ability to learn complex patterns.
+As the value of λ increases, the level of sparsity increases significantly. This indicates that L1 regularization effectively reduces the network. However, it comes with a trade-in: test accuracy remains relatively low and does not improve significantly. This indicates that excessive pruning can limit the ability of a model to learn complex patterns.
 
 ---
 
